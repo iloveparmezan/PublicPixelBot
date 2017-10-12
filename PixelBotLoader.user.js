@@ -13,7 +13,7 @@
 var inject = function() {
     console.log("Injecting");
     var script = document.createElement('script');
-    script.src = 'https://github.com/iloveparmezan/PublicPixelBot/raw/master/PixelBot.user.js' + '?v=' + Math.random();
+    script.src = 'https://rawgit.com/iloveparmezan/PublicPixelBot/master/PixelBot.user.js' + '?v=' + Math.random();
     document.body.appendChild(script);
     (document.body || document.head || document.documentElement).appendChild(script);
 };
