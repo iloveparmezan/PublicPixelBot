@@ -14,7 +14,7 @@ function MyPixelBot() {
     window.MyPixelBot = MyPixelBot;
 
     MyPixelBot.url = {
-        script: 'https://github.com/iloveparmezan/PublicPixelBot/raw/master/PixelBot.user.js',
+        script: 'https://raw.githubusercontent.com/iloveparmezan/PublicPixelBot/master/PixelBot.user.js',
         image:  'https://i.imgur.com/q7gSTvP.png'
     };
 
